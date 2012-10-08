@@ -31,9 +31,9 @@ class Poll extends DataObject implements PermissionProvider {
 	
 	static $summary_fields = array(
 		'Title',
-		'IsActive',
-		'Embargo',
-		'Expiry'
+		//'IsActive',
+		//'Embargo',
+		//'Expiry'
 	); 
 	
 	static $default_sort = 'Created DESC';
